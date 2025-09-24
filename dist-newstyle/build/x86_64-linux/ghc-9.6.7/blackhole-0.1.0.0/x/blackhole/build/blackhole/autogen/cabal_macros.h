@@ -10,6 +10,26 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 #endif /* MIN_VERSION_blackhole */
+/* package GLUT-2.7.0.16 */
+#ifndef VERSION_GLUT
+#define VERSION_GLUT "2.7.0.16"
+#endif /* VERSION_GLUT */
+#ifndef MIN_VERSION_GLUT
+#define MIN_VERSION_GLUT(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  7 || \
+  (major1) == 2 && (major2) == 7 && (minor) <= 0)
+#endif /* MIN_VERSION_GLUT */
+/* package OpenGL-3.0.3.0 */
+#ifndef VERSION_OpenGL
+#define VERSION_OpenGL "3.0.3.0"
+#endif /* VERSION_OpenGL */
+#ifndef MIN_VERSION_OpenGL
+#define MIN_VERSION_OpenGL(major1,major2,minor) (\
+  (major1) <  3 || \
+  (major1) == 3 && (major2) <  0 || \
+  (major1) == 3 && (major2) == 0 && (minor) <= 3)
+#endif /* MIN_VERSION_OpenGL */
 /* package base-4.18.3.0 */
 #ifndef VERSION_base
 #define VERSION_base "4.18.3.0"
@@ -20,6 +40,26 @@
   (major1) == 4 && (major2) <  18 || \
   (major1) == 4 && (major2) == 18 && (minor) <= 3)
 #endif /* MIN_VERSION_base */
+/* package containers-0.6.7 */
+#ifndef VERSION_containers
+#define VERSION_containers "0.6.7"
+#endif /* VERSION_containers */
+#ifndef MIN_VERSION_containers
+#define MIN_VERSION_containers(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  6 || \
+  (major1) == 0 && (major2) == 6 && (minor) <= 7)
+#endif /* MIN_VERSION_containers */
+/* package deepseq-1.4.8.1 */
+#ifndef VERSION_deepseq
+#define VERSION_deepseq "1.4.8.1"
+#endif /* VERSION_deepseq */
+#ifndef MIN_VERSION_deepseq
+#define MIN_VERSION_deepseq(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  4 || \
+  (major1) == 1 && (major2) == 4 && (minor) <= 8)
+#endif /* MIN_VERSION_deepseq */
 /* package gloss-1.13.2.2 */
 #ifndef VERSION_gloss
 #define VERSION_gloss "1.13.2.2"
